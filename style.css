@@ -14,7 +14,7 @@ body{
     border-collapse: collapse;
 }
 .table td,th{
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 6px;
 }
 .table thead{
@@ -27,4 +27,17 @@ body{
 }
 .table tbody tr td:last-child{
     text-align: right;
+}
+.table tbody tr:hover{
+    cursor: grab;
+    background-color: blueviolet;
+    font-weight: bold;
+}
+#contantainer{
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    height: 100vh;
+    padding: 15px;
+    width: 60%;
+    margin: 0 auto;
 }
